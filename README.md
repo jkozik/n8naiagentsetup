@@ -421,6 +421,10 @@ postgres-1  | 2025-05-26 02:28:00.806 UTC [55] LOG:  checkpoint complete: wrote 
 ```
 The n8n tool runs on `http://localhost:5678`.  I have a reverse proxy and I have it mapped to a subdomain on one of my domain names.  
 
+### login to n8n
+I access the n8n portal for the first time.  I prompts me to setup an admin account with a user id / password.  Then all access to n8n starts with a login screen
+
+![image](https://github.com/user-attachments/assets/75fc6fc7-6728-40fc-ab5b-58e1629c1b5c)
 
 
 
