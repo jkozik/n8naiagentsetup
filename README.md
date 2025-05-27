@@ -426,6 +426,25 @@ I access the n8n portal for the first time.  I prompts me to setup an admin acco
 
 ![image](https://github.com/user-attachments/assets/75fc6fc7-6728-40fc-ab5b-58e1629c1b5c)
 
+### Click on Demo Work Flow
+
+The n8n repository sets up a nice Demo Workflow -- sort of a hello world for an agent that works with an LLM.  Click on Demo Workflow:
+
+![image](https://github.com/user-attachments/assets/80763c46-248a-4fc4-ac72-ff970b58643a)
+
+Click on the Ollama Chat Model and verify:
+
+![image](https://github.com/user-attachments/assets/b4a1fae1-316c-4385-930d-0eec0658e6ca)
+
+That the Model has an error fetching options from the Ollama Chat Model.  That error is because n8n is running in a docker container and ollama is not.  Go back to the Overview section.  Click on credentials->Local Ollama Service. Change the Base URL to `http://host.docker.internal:11434`.  Click Retry to verify that the Connection is setup correctly.
+
+![image](https://github.com/user-attachments/assets/550e6ea2-70c9-4cec-9dae-cfc6a5277677)
+
+And Save it.
+
+
+
+
 
 
 
