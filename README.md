@@ -464,4 +464,6 @@ Note also, the graphic animates showing the progress of the prompt back and fort
  - [How to Install Ollama, Docker, and Open WebUI on MacOS](https://www.youtube.com/watch?v=3qGLMlsB8Us) by [BlueSpork](https://www.youtube.com/@BlueSpork)
  - [self-hosted-ai-starter-kit](https://github.com/n8n-io/self-hosted-ai-starter-kit) repository by [N8N github account](https://github.com/n8n-io)
  - [Installing and Using Local AI for n8n](https://www.youtube.com/watch?v=xz_X2N-hPg0)
+ - [The BEST Local AI Setup – Run Everything FREE (LLMs + n8n + MCP, No Code)](https://www.youtube.com/watch?v=PB24nnMBHlc&t=53s)
+ - 
 
