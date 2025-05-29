@@ -450,13 +450,13 @@ Note also, the graphic animates showing the progress of the prompt back and fort
 
 
 
+# Conclusions
+Ok, the basic setup has been verified.  
+Using [N8N github account](https://github.com/n8n-io)'s AI Starter Kit, I've setup an n8n instance in a set of docker containers.  It has a basic chat automation that queries the Ollama natively installed on my Mac Mini M4.  Further, I used a reverse proxy to let me access the automation dashboard from a log-in protected web page.
 
-
-
-
-
-
-
+Next steps:
+ - setup the Qdrant vector document store.  It takes documents, runs them through embedding model and creates a vector store.  Used for RAG.
+ - Integrate with MCP.  This is the hip trendy way that AI Agents link together information from the web into an AI driven workflow.
 
 # References
 
