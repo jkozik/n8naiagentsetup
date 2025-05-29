@@ -442,6 +442,13 @@ That the Model has an error fetching options from the Ollama Chat Model.  That e
 
 And Save it.
 
+### Try a simple Chat
+I verify that the n8n setup queries ollama by trying a Chat.  Click on Open Chat and type a message.  It should reply back quickly.  Note: if the reply is a slow one, word, at, a, time -- that indicates that the Ollama setup is not configured to use the Apple SIlicon.  
+![image](https://github.com/user-attachments/assets/5e08b278-e5aa-495d-9c36-d8e5a38e01c5)
+
+Note also, the graphic animates showing the progress of the prompt back and forth.
+
+
 
 
 
